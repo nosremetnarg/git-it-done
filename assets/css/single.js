@@ -21,7 +21,7 @@ var getRepoIssues = function (repo) {
         }
         else {
             // if not successful, redirect to homepage
-            document.location.replacd("./index2.html")
+            document.location.replace("./index2.html");
         }
     });
 };
